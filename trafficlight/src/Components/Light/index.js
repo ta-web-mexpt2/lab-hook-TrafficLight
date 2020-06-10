@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import "../Light/styles.css"
 
 
 
 const Light = ({ color, active }) => {
   return (
-        <div className="light">
-        Luz
+        <div style={{"background-color": color, "opacity": active, }}  className="light">
         </div>
   );
 };
