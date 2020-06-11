@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+/* Components  */
+.light1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  background: #f00;
+}
+
+.light2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  background: #ff0;
+}
+
+.light3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  background: #0c0;
+}
+
+.traffic-light {
+  width: 120px;
+  padding: 5px;
+  margin: 5px;
+  background-color: #888;
+  border: dashed 1px #666;
+  display: inline-block;
+}

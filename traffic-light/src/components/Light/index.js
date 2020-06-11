@@ -1,0 +1,1 @@
+// const only to recive params ({ color, active })
