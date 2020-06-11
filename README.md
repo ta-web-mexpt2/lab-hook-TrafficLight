@@ -1,78 +1,68 @@
-![Ironhack Logo](https://i.imgur.com/1QgrNNw.png)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Lab-Hook-TrafficLight
+## Available Scripts
 
-## Requirements
+In the project directory, you can run:
 
-- [Fork this repo](https://guides.github.com/activities/forking/)
-- Clone this repo into your `~/code/labs`
+### `yarn start`
 
-## Submission
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Upon completion, run the following commands
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-```
-$ git add .
-$ git commit -m "done"
-$ git push origin master
-```
+### `yarn test`
 
-Navigate to your repo and create a Pull Request -from your master branch to the original repository master branch.
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-In the Pull request name, add your name and last names separated by a dash "-".
+### `yarn build`
 
-Include a link to your deployed heroku app in the pull request.
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Instructions
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-Well now we will create our first traffic light using react and hooks
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Iteration 1 | Create react app
+### `yarn eject`
 
-Initialize a react project so we can start working
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-### Iteration 2 | Components 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-we need to create two components:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-- `TrafficLight` - this component will be a function to use hooks and useEffect
-- `Light` - const only to recive params ({ color, active })
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-add this styles for the components
+## Learn More
 
-    .light {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      margin: 10px;
-    }
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-    .traffic-light {
-      width: 120px;
-      padding: 5px;
-      margin: 5px;
-      background-color: #888;
-      border: dashed 1px #666;
-      display: inline-block;
-    }
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-colors:
+### Code Splitting
 
-- `red` - "#f00"
-- `yellow` - "#ff0"
-- `green` - "#0c0"
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-we must have something like that
+### Analyzing the Bundle Size
 
-![TrafficLigth](https://res.cloudinary.com/dhgfid3ej/image/upload/v1591432790/Screen_Shot_2020-06-06_at_3.39.35_rvuzkl.png)
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Iteration 3 | active useEffect 
+### Making a Progressive Web App
 
-It's time to start with our logic, using useEffect we have to make our traffic light start working and you can see transitions of the color change, remember the parameter `active` will serve to give the opacity effect or turn off the other lights.
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-`advice use %`
+### Advanced Configuration
 
-and that's it
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-Happy Coding! :heart:
- 
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
