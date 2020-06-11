@@ -1,1 +1,3 @@
-// const only to recive params ({ color, active })
+import { useParams } from 'react-router-dom';
+
+const { color, active } = useParams();
