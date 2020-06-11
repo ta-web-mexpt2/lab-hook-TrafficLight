@@ -1,12 +1,12 @@
 import React from "react";
-import "../Light/styles.css"
-
-
+import "../Light/styles.css";
 
 const Light = ({ color, active }) => {
   return (
-        <div style={{"background-color": color, "opacity": active, }}  className="light">
-        </div>
+    <div
+      style={{ "backgroundColor": color, opacity: active }}
+      className="light"
+    ></div>
   );
 };
 
